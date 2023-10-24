@@ -34,16 +34,16 @@ section.chat_section{
     color: #444;
     margin-left: 10px;
 }
-.message__area{
-    max-height: 500px;
+.message_area{
+    height: 500px;
+    overflow: auto;
     padding: 16px;
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
     padding-top: 40px;
 }
 textarea {
-    max-height: 500px;
+    max-height: 100px;
     width: 100%;
     border: none;
     padding: 20px;
